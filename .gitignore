@@ -10,5 +10,5 @@ html/wp-content/*
 html/wp-content/plugins/*
 
 
-!html/wp-content/plugins/myplugin
+!html/wp-content/plugins/artdirection
 
