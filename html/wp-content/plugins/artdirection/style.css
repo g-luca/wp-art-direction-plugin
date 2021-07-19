@@ -1,0 +1,48 @@
+/**
+ * Note that these styles are loaded *before* editor styles, so that
+ * editor-specific styles using the same selectors will take precedence.
+ */
+ .wp-artdirection .image {
+    background: #f1f1f1;
+    float: right;
+    width: 50%;
+    min-height: 10px;
+    text-align: center;
+}
+
+.wp-artdirection .image button {
+    margin-top: 30px;
+}
+
+.wp-artdirection .image button.image-button {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.wp-artdirection .image img {
+    display: block;
+    z-index: 1;
+    position: relative;
+}
+
+.wp-artdirection h2 {
+    font-size: 1.5em;
+}
+
+.wp-artdirection ul {
+    padding-left: 2.5em !important;
+    /* Needs fix in Gutenberg. */
+}
+
+.wp-artdirection:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.components-button {
+    height: 100%;
+    display: block!important;
+    max-width: 300px;
+}
